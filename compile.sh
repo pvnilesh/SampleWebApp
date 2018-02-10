@@ -1,1 +1,1 @@
-mvn compile
+/opt/apache-maven/bin/mvn compile
