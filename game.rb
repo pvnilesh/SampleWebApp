@@ -16,7 +16,8 @@ end
 digits = 4
 
 secret_number = rand_n(digits,10)
-puts secret_number
+# save the random number to the file
+File.open('out.txt', 'w') { |file| file.write(secret_number) }
 
 max_guesses = 10
 guess_count = 1
